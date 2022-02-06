@@ -1,3 +1,54 @@
-h1{
-    color:  red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+header{
+    background-image: url("/images/header-images/background.png");
+    height: 100%;
+}
+.secthoin1{  
+    height: 80px;
+}
+.secthoin2{
+    height: calc(100% - 80px);
+    text-transform: uppercase;
+}
+/* header images zindex  */
+.images-area{
+    position: relative;
+    z-index: 43;
+}
+.images-left{
+    position: absolute;
+    z-index: -2;
+    margin-left: -70px;
+    transform: rotate(-30deg);
+}
+.images-right{
+    position: absolute;
+    z-index: -2;
+    margin-left: -70px;
+    margin-top: 50px;
+}
+/* header text style */
+.paragrapstyle{
+    font-size: 15px;
+    margin-left: 12px;
+    outline: dimgrey  dashed  5px;
+    outline-offset: 7px;
+    font-weight: 600;
+}
+.burger-style{
+    font-size: 150px;
+    font-weight: 600;
+    text-shadow: 5px 1px mintcream; 
+}
+.week-style{
+    font-size: 80px;
+    font-weight: 600;
+    text-shadow: 3px 1px mintcream; 
 }
